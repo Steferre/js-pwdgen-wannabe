@@ -6,6 +6,8 @@ var yourSurname = prompt("What's your surname?");
 
 var yourFavColor = prompt("What is your favourite color?");
 
-document.getElementById('userData').innerHTML= yourName + " " + yourSurname + " " + yourFavColor + " " + "21";
+document.getElementById('userName').innerHTML= yourName;
+document.getElementById('userSurname').innerHTML= yourSurname;
+document.getElementById('userFavCol').innerHTML= yourFavColor + " " + "21";
 
 console.log(yourName + " " + yourSurname + " " + yourFavColor);

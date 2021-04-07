@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.data_container {
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.your_name, 
+.your_surname,
+.your_color {
+    text-transform: uppercase;
+}
+
+.your_surname {
+    color: blue;
+}
